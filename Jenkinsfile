@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stag('build') {
+        stage('build') {
             steps {
                 echo 'build the file'
             }
